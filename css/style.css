@@ -1,0 +1,330 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(transparent, #cc0);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#inicio {
+  background: url('https://i.blogs.es/732959/casa-kame-de-dragon-ball_3840x2160_xtrafondos.com/1366_2000.jpeg') center / cover fixed;
+  text-align: center;
+  height: 400px;
+  color: #fff;
+}
+
+.display-4 {
+  border: solid 2px #fff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.lead {
+  margin-top: 100px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 2rem;
+}
+
+.navbar a {
+  color: white !important;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #f8b400;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #f8b400;
+}
+
+.card-text {
+  text-align: justify;
+  font-size: 1em;
+  color: #333;
+}
+
+details {
+  color: #ddd;
+  margin: 20px auto;
+  font-size: 18px;
+  padding: 15px;
+  box-shadow: 0 0 15px #444;
+  border-radius: 8px;
+  border: 1px solid #111;
+  transition: all 0.3s ease;
+  max-width: 800px;
+  width: 90%;
+}
+
+details[open] {
+  background-color: rgba(248, 180, 0, 0.3);
+}
+
+summary {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+summary:hover {
+  color: #ff9e00;
+}
+
+summary::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(180deg);
+}
+
+details > p {
+  font-family: sans-serif;
+  color: #444;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #f8b400;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f8b400;
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+    margin-left: 0;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    padding: 1rem;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.2em;
+  }
+
+  .card-text {
+    font-size: 0.9em;
+  }
+
+  details {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  summary {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .col-md-2, .col-4 {
+    flex: 0 0 90%;
+  }
+
+  .capability-icon img {
+    width: 50px;
+  }
+
+  details {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  summary {
+    font-size: 16px;
+  }
+}
+
+i {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a66c2;
+}
+
+#capacidades details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#capacidades details summary {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+#capacidades details summary:hover {
+  background-color: #ddd;
+}
+
+#capacidades details[open] summary {
+  background-color: #f8b400;
+  color: #fff;
+}
+
+#capacidades p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.capability-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.capability-icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.capability-icon p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.capability-icon:hover img {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.capability-icon:hover p {
+  color: #f8b400;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.col-md-2, .col-4 {
+  flex: 0 0 18%;
+  max-width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .col-md-2 {
+    flex: 0 0 30%;
+  }
+
+  .col-4 {
+    flex: 0 0 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .col-md-2, .col-4 {
+    flex: 0 0 90%;
+  }
+
+  .capability-icon img {
+    width: 50px;
+  }
+}

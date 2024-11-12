@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- FontAwesome (para iconos) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Ícono de la página -->
+  <link rel="icon" href="img/icon.png">
+</head>
+<body>
+  <!-- Navbar (Menú de navegación) -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Mi Portafolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sección de Inicio -->
+  <header id="inicio">
+    <h1 class="display-4">Deivid Patiño</h1>
+    <p class="lead">Bienvenidos | a mi | [Portafolio]</p>
+    <a href="#projects" class="btn btn-primary btn-lg">Ver mis proyectos</a>
+  </header>
+
+  <!-- Sección Sobre mí -->
+  <section id="about">
+    <details>
+      <summary><strong>Sobre mí</strong></summary>
+      <p>Mi nombre es Deivid, nací en Medellín, Colombia, en el año 2005 y actualmente estudio análisis y desarrollo de software.</p>
+    </details>
+
+    <details>
+      <summary><strong>Resumen</strong></summary>
+      <p>Soy un apasionado del desarrollo de software. Me encanta aprender nuevas tecnologías y estoy comprometido con crear soluciones tecnológicas que mejoren la vida de las personas.</p>
+    </details>
+
+    <details>
+      <summary><strong>Contacto</strong></summary>
+      <p>Correo electrónico: <a href="mailto:correoexample@gmail.com">correoexample@gmail.com</a></p>
+    </details>
+
+    <details>
+      <summary><strong>Experiencia</strong></summary>
+      <p>A la espera de alguna oportunidad laboral para demostrar mis capacidades y contribuir en proyectos de tecnología.</p>
+    </details>
+
+    <details>
+      <summary><strong>Capacidades</strong></summary>
+      <p>Actualmente me encuentro en una etapa de aprendizaje que me permitirá desarrollarme de manera más eficaz en el futuro. Mis capacidades actuales incluyen los siguientes lenguajes y tecnologías:</p>
+      
+      <div class="row text-center">
+        <div class="col-md-2 col-4 mb-4">
+          <div class="capability-icon">
+            <img src="img/html.png" alt="HTML5" class="img-fluid">
+            <p>HTML5</p>
+          </div>
+        </div>
+        
+        <div class="col-md-2 col-4 mb-4">
+          <div class="capability-icon">
+            <img src="img/css.png" alt="CSS3" class="img-fluid">
+            <p>CSS3</p>
+          </div>
+        </div>
+        
+        <div class="col-md-2 col-4 mb-4">
+          <div class="capability-icon">
+            <img src="img/javascript.png" alt="JavaScript" class="img-fluid">
+            <p>JavaScript</p>
+          </div>
+        </div>
+        
+        <div class="col-md-2 col-4 mb-4">
+          <div class="capability-icon">
+            <img src="img/php.jfif" alt="PHP" class="img-fluid">
+            <p>PHP</p>
+          </div>
+        </div>
+        
+        <div class="col-md-2 col-4 mb-4">
+          <div class="capability-icon">
+            <img src="img/github.png" alt="GitHub" class="img-fluid">
+            <p>GitHub</p>
+          </div>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- Sección de Proyectos -->
+  <section id="projects" style="background-color: #eae0d5;" class="container my-5">
+    <h2 class="text-center">Proyectos</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+        <div class="card project">
+          <img src="img/img.jfif" class="card-img-top" alt="Proyecto 1">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 1</h5>
+            <p class="card-text">Este proyecto ofrece una API que permite acceder a información detallada sobre los personajes, episodios y ubicaciones del mundo de Rick and Morty. Los usuarios pueden obtener datos sobre las características de los personajes, como sus nombres, especies, orígenes, y estados de salud, así como los episodios en los que aparecen y las dimensiones a las que viajan. Esta API es ideal para crear aplicaciones y herramientas que exploran el extenso y cómico universo de la serie.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card project">
+          <img src="img/img2.jfif" class="card-img-top" alt="Proyecto 2">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 2</h5>
+            <p class="card-text">Este proyecto proporciona una API que centraliza información sobre el universo Pokémon, ofreciendo datos detallados sobre los diferentes Pokémon, sus estadísticas, habilidades, movimientos, evoluciones y tipos. Además, permite acceder a información sobre los entrenadores, objetos, y las ubicaciones dentro del mundo Pokémon, facilitando a los desarrolladores la integración de estos datos en sus aplicaciones, juegos y proyectos educativos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contact" class="container text-center my-5">
+    <h2>Contacto</h2>
+    <p>Puedes contactarme a través de mis redes sociales o enviarme un mensaje.</p>
+    <ul class="list-inline">
+      <li class="list-inline-item">
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </li>
+      <li class="list-inline-item">
+        <a href="mailto:tucorreo@ejemplo.com"><i class="fas fa-envelope"></i> Email</a>
+      </li>
+      <li class="list-inline-item">
+        <a href="registro.html"><i class="fas fa-user"></i> Registro</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>&copy; 2024 @deivid patiño. Todos los derechos reservados.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>
+</html>
